@@ -1,16 +1,180 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles/main.scss"/>
+    <title>Title</title>
 </head>
-
 <body>
-    
+<div class="wrapper">
+    <header class="header">
+        <div class="header__container">
+            <div class="header__menu menu">
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Works</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Blog</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="page">
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Hi, I am John, Creative Technologist</h1>
+                    <p class="hero__text">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                        amet sint. Velit officia consequat duis enim velit mollit.
+                        Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                    <a href class="hero__btn button">Download Resume</a>
+                </div>
+                <div class="hero__img">
+                    <picture
+                    >
+                        <source srcset="img/hero-avatar.webp" type="image/webp"/>
+                        <img src="img/hero-avatar.jpg" alt="Image"
+                        /></picture>
+                </div>
+            </div>
+        </section>
+        <section class="posts">
+            <div class="posts__container">
+                <div class="posts__header">
+                    <div class="posts__title title">Recent posts</div>
+                    <a href class="posts__more">View all</a>
+                </div>
+                <div class="posts__items">
+                    <div class="posts__item item-post">
+                        <a href class="item-post__title"
+                        >Making a design system from scratch</a
+                        >
+                        <p class="item-post__dear">Design, Pattern</p>
+                        <p class="item-post__text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                            amet sint. Velit officia consequat duis enim velit mollit.
+                            Exercitation veniam consequat sunt nostrud amet.
+                        </p>
+                    </div>
+                    <div class="posts__item item-post">
+                        <a href class="item-post__title"
+                        >Creating pixel perfect icons in Figma</a
+                        >
+                        <p class="item-post__dear">Figma, Icon Design</p>
+                        <p class="item-post__text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                            amet sint. Velit officia consequat duis enim velit mollit.
+                            Exercitation veniam consequat sunt nostrud amet.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="featured">
+            <div class="featured__container">
+                <h2 class="featured__title title">Featured works</h2>
+                <div class="featured__items">
+                    <article class="featured__item item-featured">
+                        <div class="item-featured__img -ibg">
+                            <picture
+                            >
+                                <source srcset="img/featured/01.webp" type="image/webp"/>
+                                <img src="img/featured/01.jpg" alt="Image"
+                                /></picture>
+                        </div>
+                        <div class="item-featured__content">
+                            <a href class="item-featured__title">Designing Dashboards</a>
+                            <div class="item-featured__box">
+                                <span class="item-featured__year">2020</span>
+                                <div class="item-featured__category">Dashboard</div>
+                            </div>
+                            <p class="item-featured__text">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                                do amet sint. Velit officia consequat duis enim velit
+                                mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="featured__item item-featured">
+                        <div class="item-featured__img -ibg">
+                            <picture
+                            >
+                                <source srcset="img/featured/02.webp" type="image/webp"/>
+                                <img src="img/featured/02.jpg" alt="Image"
+                                /></picture>
+                        </div>
+                        <div class="item-featured__content">
+                            <a href class="item-featured__title"
+                            >Vibrant Portraits of 2020</a
+                            >
+                            <div class="item-featured__box">
+                                <span class="item-featured__year">2018</span>
+                                <div class="item-featured__category">Illustration</div>
+                            </div>
+                            <p class="item-featured__text">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                                do amet sint. Velit officia consequat duis enim velit
+                                mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="featured__item item-featured">
+                        <div class="item-featured__img -ibg">
+                            <picture
+                            >
+                                <source srcset="img/featured/03.webp" type="image/webp"/>
+                                <img src="img/featured/03.jpg" alt="Image"
+                                /></picture>
+                        </div>
+                        <div class="item-featured__content">
+                            <a href class="item-featured__title"
+                            >36 Days of Malayalam type</a
+                            >
+                            <div class="item-featured__box">
+                                <span class="item-featured__year">2018</span>
+                                <div class="item-featured__category">Typography</div>
+                            </div>
+                            <p class="item-featured__text">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                                do amet sint. Velit officia consequat duis enim velit
+                                mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__social social">
+                <a href="https://www.youtube.com/watch?v=UCeV97CMvrk&ab_channel=CodeArmy" class="social__item"
+                ><img src="img/social/fb.svg" alt="Image"
+                /></a>
+                <a href="https://www.youtube.com/watch?v=CNTKYqOKZ0Q&ab_channel=CodeArmy" class="social__item"
+                ><img src="img/social/insta.svg" alt="Image"
+                /></a>
+                <a href="https://www.youtube.com/watch?v=rpvQyKiCz2E&ab_channel=loftblog" class="social__item"
+                ><img src="img/social/twit.svg" alt="Image"
+                /></a>
+                <a href class="social__item"
+                ><img src="img/social/linkedin.svg" alt="Image"
+                /></a>
+            </div>
+            <p class="footer__copy">Copyright ©2020 All rights reserved</p>
+        </div>
+    </footer>
+</div>
 </body>
-
 </html>
